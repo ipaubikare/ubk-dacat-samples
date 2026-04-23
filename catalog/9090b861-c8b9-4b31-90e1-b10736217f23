@@ -24,7 +24,7 @@
   dcat:dataset <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e>,
     <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/08a1a35d-238b-41a5-af0a-b5bde25880de>,
     <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/899c3f0b-c8bd-4665-824c-aa477702db1d>,
-    <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/feafe7b9-e8f2-4629-bdc0-3da9ce8e709e>,
+    <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/feafe7b9-e8f2-4629-bdc0-3da9ce8e709e>;
   dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
     <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
   dcterms:conformsTo <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/profile/a0949e72-4466-4d53-8900-9436d1049a4b> .
