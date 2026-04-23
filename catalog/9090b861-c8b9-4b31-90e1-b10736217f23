@@ -4,18 +4,18 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 
-<https://ehdsfdp.healthdataportal.eu:443/catalog/9090b861-c8b9-4b31-90e1-b10736217f15>
+<https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23>
   a dcat:Resource, dcat:Catalog;
   <http://www.w3.org/2000/01/rdf-schema#label> "UBIKARE DEMO HDAB";
-  dcterms:accessRights <https://ehdsfdp.healthdataportal.eu:443/catalog/9090b861-c8b9-4b31-90e1-b10736217f15#accessRights>;
+  dcterms:accessRights <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23#accessRights>;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/es>;
   dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
   dcterms:publisher [ a foaf:Agent
     ];
   dcterms:title "UBIKARE DEMO HDAB";
-  <http://semanticscience.org/resource/SIO_000628> <https://ehdsfdp.healthdataportal.eu:443/catalog/9090b861-c8b9-4b31-90e1-b10736217f15/metrics/445c0a70d1e214e545b261559e2842f4>,
-    <https://ehdsfdp.healthdataportal.eu:443/catalog/9090b861-c8b9-4b31-90e1-b10736217f15/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
-  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://ehdsfdp.healthdataportal.eu:443/catalog/9090b861-c8b9-4b31-90e1-b10736217f15#identifier>;
+  <http://semanticscience.org/resource/SIO_000628> <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23#identifier>;
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-10-10T12:39:25.483521126Z"^^xsd:dateTime;
   <https://w3id.org/fdp/fdp-o#metadataModified> "2025-03-19T18:07:22.82719877Z"^^xsd:dateTime;
   dcterms:isPartOf <https://ehdsfdp.healthdataportal.eu:443>;
