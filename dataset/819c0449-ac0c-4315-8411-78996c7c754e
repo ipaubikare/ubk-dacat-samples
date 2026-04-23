@@ -3,6 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e>
   a dcat:Resource, dcat:Dataset;
@@ -41,7 +42,13 @@
   <http://healthdataportal.eu/ns/health#minTypicalAge> "0"^^xsd:nonNegativeInteger;
   <http://healthdataportal.eu/ns/health#populationCoverage> "Home Care service data and starts from users and professionals."@en;
   dcterms:provenance <internalURI:datasetProvenance0>;
-  dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP>;
+  dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP>, 
+      <http://publications.europa.eu/resource/authority/atu/ESP_MD>,
+      <https://www.wikidata.org/wiki/Q3773976>,
+      <https://www.wikidata.org/wiki/Q1763370>,
+      <https://www.wikidata.org/wiki/Q2002296>,
+      <https://www.wikidata.org/wiki/Q1763376>;
+
   dcterms:type <http://publications.europa.eu/resource/authority/dataset-type/PERSONAL_DATA>;
   <http://technical.fdp/modified> "2026-03-15T05:22:24.089Z"^^xsd:dateTime;
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>;
@@ -53,3 +60,33 @@
   <https://w3id.org/dpv#hasLegalBasis> <internalURI:hasLegalBasis0> .
 
 <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> a dcterms:RightsStatement .
+
+# Definición de las etiquetas para esas URIs
+<http://publications.europa.eu/resource/authority/country/ESP> 
+    rdfs:label "España"@es, "Spain"@en ;
+    skos:prefLabel "España"@es .
+
+<http://publications.europa.eu/resource/authority/atu/ESP_MD> 
+    rdfs:label "Comunidad de Madrid"@es ;
+    skos:prefLabel "Comunidad de Madrid"@es; 
+    skos:broader <http://publications.europa.eu/resource/authority/country/ESP> .
+
+<https://www.wikidata.org/wiki/Q3773976> 
+    rdfs:label "Ayuntamiento de Madrid"@es ;
+    skos:prefLabel "Ayuntamiento de Madrid"@es; 
+    skos:broader <http://publications.europa.eu/resource/authority/atu/ESP_MD> .
+
+<https://www.wikidata.org/wiki/Q1763370> 
+    rdfs:label "Chamberí"@es ;
+    skos:prefLabel "Chamberí"@es; 
+    skos:broader <https://www.wikidata.org/wiki/Q3773976> .
+
+<https://www.wikidata.org/wiki/Q2002296> 
+    rdfs:label "Retiro"@es ;
+    skos:prefLabel "Retiro"@es; 
+    skos:broader <https://www.wikidata.org/wiki/Q3773976> .
+
+<https://www.wikidata.org/wiki/Q1763376> 
+    rdfs:label "Centro"@es ;
+    skos:prefLabel "Centro"@es; 
+    skos:broader <https://www.wikidata.org/wiki/Q3773976> .
