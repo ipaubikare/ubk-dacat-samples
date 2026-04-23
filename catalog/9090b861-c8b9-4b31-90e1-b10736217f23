@@ -29,4 +29,4 @@
     <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/feafe7b9-e8f2-4629-bdc0-3da9ce8e709e>,
   dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
     <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
-  dcterms:conformsTo <https://ehdsfdp.healthdataportal.eu:443/profile/a0949e72-4466-4d53-8900-9436d1049a4b> .
+  dcterms:conformsTo <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/profile/a0949e72-4466-4d53-8900-9436d1049a4b> .
