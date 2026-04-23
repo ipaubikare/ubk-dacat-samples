@@ -15,7 +15,11 @@
   dcterms:language <http://publications.europa.eu/resource/authority/language/FIN>,
     <http://publications.europa.eu/resource/authority/language/ESP>;
   dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
-  dcterms:publisher <https://www.wikidata.org/wiki/Q3773976>;
+  dcterms:publisher [ a foaf:Agent;
+      foaf:name "Ayuntamiento de Madrid"@es;
+      foaf:homepage <https://www.madrid.es/portales/munimadrid/es/Inicio/Servicios-sociales-y-salud/>;
+      foaf:mbox <mailto:info@madrid.es>.
+    ];
   dcterms:title "Madrid Home Care"@es;
   <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e#identifier>;
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-10-10T12:44:36.904671387Z"^^xsd:dateTime;
@@ -57,37 +61,26 @@
 
 <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> a dcterms:RightsStatement .
 
-<https://www.wikidata.org/wiki/Q3773976> foaf:Agent, foaf:Organization;
-      foaf:name "Ayuntamiento de Madrid"@es;
-      foaf:homepage <https://www.madrid.es/portales/munimadrid/es/Inicio/Servicios-sociales-y-salud/>;
-      foaf:mbox <mailto:info@madrid.es>.
-
 # Definición de las etiquetas para esas URIs
 <http://publications.europa.eu/resource/authority/country/ESP> 
-    rdfs:label "España"@es, "Spain"@en ;
     skos:prefLabel "España"@es .
 
 <http://publications.europa.eu/resource/authority/atu/ESP_MD> 
-    rdfs:label "Comunidad de Madrid"@es ;
     skos:prefLabel "Comunidad de Madrid"@es; 
     skos:broader <http://publications.europa.eu/resource/authority/country/ESP> .
 
 <https://www.wikidata.org/wiki/Q2807> 
-    rdfs:label "Madrid"@es ;
     skos:prefLabel "Madrid"@es; 
     skos:broader <http://publications.europa.eu/resource/authority/atu/ESP_MD> .
 
 <https://www.wikidata.org/wiki/Q1763370> 
-    rdfs:label "Chamberí"@es ;
     skos:prefLabel "Chamberí"@es; 
     skos:broader <https://www.wikidata.org/wiki/Q2807> .
 
 <https://www.wikidata.org/wiki/Q2002296> 
-    rdfs:label "Retiro"@es ;
     skos:prefLabel "Retiro"@es; 
     skos:broader <https://www.wikidata.org/wiki/Q2807> .
 
 <https://www.wikidata.org/wiki/Q1763376> 
-    rdfs:label "Centro"@es ;
     skos:prefLabel "Centro"@es; 
     skos:broader <https://www.wikidata.org/wiki/Q2807> .
