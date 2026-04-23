@@ -7,7 +7,7 @@
 
 <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e>
   a dcat:Resource, dcat:Dataset;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Finnish National Vaccination Register";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Madrid Home Care";
   dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED>;
   dcterms:conformsTo <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
     <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
