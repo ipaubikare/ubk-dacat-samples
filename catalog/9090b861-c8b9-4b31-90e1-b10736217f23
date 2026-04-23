@@ -13,8 +13,6 @@
   dcterms:publisher [ a foaf:Agent
     ];
   dcterms:title "UBIKARE DEMO HDAB";
-  <http://semanticscience.org/resource/SIO_000628> <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23/metrics/445c0a70d1e214e545b261559e2842f4>,
-    <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
   <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23#identifier>;
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-04-10T12:39:25.483521126Z"^^xsd:dateTime;
   <https://w3id.org/fdp/fdp-o#metadataModified> "2026-04-23T18:07:22.82719877Z"^^xsd:dateTime;
@@ -30,3 +28,28 @@
   dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
     <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
   dcterms:conformsTo <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/profile/a0949e72-4466-4d53-8900-9436d1049a4b> .
+
+<https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23" .
+
+<https://ehdsfdp.healthdataportal.eu:443/dataset/> a ldp:DirectContainer;
+  dcterms:title "Datasets";
+  ldp:membershipResource <https://ehdsfdp.healthdataportal.eu:443/catalog/9090b861-c8b9-4b31-90e1-b10736217f15>;
+  ldp:hasMemberRelation dcat:dataset;
+  ldp:contains <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e>,
+    <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/08a1a35d-238b-41a5-af0a-b5bde25880de>,
+    <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/899c3f0b-c8bd-4665-824c-aa477702db1d>,
+    <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/feafe7b9-e8f2-4629-bdc0-3da9ce8e709e> .
+
+<https://ehdsfdp.healthdataportal.eu:443/catalogRecord/> a ldp:DirectContainer;
+  dcterms:title "Catalog Records";
+  ldp:membershipResource <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/catalog/9090b861-c8b9-4b31-90e1-b10736217f23>;
+  ldp:hasMemberRelation dcat:record .
+
+<https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/profile/a0949e72-4466-4d53-8900-9436d1049a4b>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Catalog Profile" .
