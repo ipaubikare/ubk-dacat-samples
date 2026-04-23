@@ -9,9 +9,9 @@
   a dcat:Resource, dcat:Dataset;
   <http://www.w3.org/2000/01/rdf-schema#label> "Finnish National Vaccination Register";
   dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED>;
-  dcterms:conformsTo <http://backup.healthdataportal.eu/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
-    <https://ehdsfdp.healthdataportal.eu:443/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
-    <https://ehdsfdp.healthdataportal.eu:443/profile/2f08228e-1789-40f8-84cd-28e3288c3604>;
+  dcterms:conformsTo <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
+    <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
+    <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/profile/2f08228e-1789-40f8-84cd-28e3288c3604>;
   dcterms:language <http://publications.europa.eu/resource/authority/language/FIN>,
     <http://publications.europa.eu/resource/authority/language/ESP>;
   dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
