@@ -4,6 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e>
   a dcat:Resource, dcat:Dataset;
@@ -18,7 +19,7 @@
   dcterms:publisher [ a foaf:Agent;
       foaf:name "Ayuntamiento de Madrid"@es;
       foaf:homepage <https://www.madrid.es/portales/munimadrid/es/Inicio/Servicios-sociales-y-salud/>;
-      foaf:mbox <mailto:info@madrid.es>.
+      foaf:mbox <mailto:info@madrid.es>
     ];
   dcterms:title "Madrid Home Care"@es;
   <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e#identifier>;
