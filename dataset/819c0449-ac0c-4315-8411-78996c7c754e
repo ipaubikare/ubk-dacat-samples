@@ -40,7 +40,7 @@
   <http://healthdataportal.eu/ns/health#healthCategory> <http://healthdataportal.eu/resource/authority/healthcategories/PHDR>;
   <http://healthdataportal.eu/ns/health#maxTypicalAge> "120"^^xsd:nonNegativeInteger;
   <http://healthdataportal.eu/ns/health#minTypicalAge> "0"^^xsd:nonNegativeInteger;
-  <http://healthdataportal.eu/ns/health#populationCoverage> "Home Care service data and starts from users and professionals."@en;
+  <http://healthdataportal.eu/ns/health#populationCoverage> "Home Care service users and professionals."@en;
   dcterms:provenance <internalURI:datasetProvenance0>;
   dcterms:spatial <http://publications.europa.eu/resource/authority/country/ESP>, 
       <http://publications.europa.eu/resource/authority/atu/ESP_MD>,
