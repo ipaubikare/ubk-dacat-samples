@@ -61,7 +61,22 @@
 
 <http://publications.europa.eu/resource/authority/access-right/RESTRICTED> a dcterms:RightsStatement .
 
-# Definición de las etiquetas para esas URIs
+<https://swagger.ubikare.io/fhir/> a dcat:Distribution ;
+    dct:title "Acceso vía API REST"@es ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    # AQUÍ es donde indicas el servicio que hay que usar
+    dcat:accessService <https://swagger.ubikare.io/fhir/Task> .
+
+<https://swagger.ubikare.io/fhir/Task> a dcat:DataService ;
+    dct:title "API FHIR Exportado"@es ;
+    dct:description "Servicio API HTTP/FHIR para el expotrado de datos de usuario y profesionales."@es ;
+    dcat:endpointURL <https://www.ubikare.io/api/fhir/Task> ;
+    dcat:endpointDescription <https://swagger.ubikare.io/api-docs/index.html> ;
+    dct:license <http://publications.europa.eu/resource/authority/licence/CC_BY_4_0> ;
+    dct:publisher <http://www.wikidata.org/entity/Q3773976> ;
+    
+    dcat:servesDataset <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e> .
+
 <http://publications.europa.eu/resource/authority/country/ESP> 
     skos:prefLabel "España"@es .
 
