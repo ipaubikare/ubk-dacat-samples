@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e>
+  a dcat:Resource, dcat:Dataset;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Finnish National Vaccination Register";
+  dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/RESTRICTED>;
+  dcterms:conformsTo <http://backup.healthdataportal.eu/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
+    <https://ehdsfdp.healthdataportal.eu:443/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
+    <https://ehdsfdp.healthdataportal.eu:443/profile/2f08228e-1789-40f8-84cd-28e3288c3604>;
+  dcterms:language <http://publications.europa.eu/resource/authority/language/FIN>,
+    <http://publications.europa.eu/resource/authority/language/ESP>;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  dcterms:publisher [ a foaf:Agent;
+      foaf:name "Ubikare Zainketal S.L";
+      foaf:homepage <https://www.ubikare.io>;
+      foaf:mbox <mailto:info@ubikare.io>
+    ];
+  dcterms:title "Madrid SAD Dependencia"@es;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://raw.githubusercontent.com/ipaubikare/ubk-dacat-samples/refs/heads/main/dataset/819c0449-ac0c-4315-8411-78996c7c754e#identifier>;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-10-10T12:44:36.904671387Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2025-03-15T05:22:23.302798396Z"^^xsd:dateTime;
+  dcterms:description "The Finnish Institute for Health and Welfare (THL) maintains a Finnish national vaccination register. Vaccination data are collected directly from patient record systems. The vaccination register covers vaccinations given in public primary health care. The data is also obtained on vaccinations administered in specialist medical care and private health care."@en;
+  dcterms:identifier "http://ehelse.healthdataportal.eu/dataset/468aa018-c3ea-48eb-8d08-3b243c065bb5"^^xsd:anyURI;
+  dcterms:isPartOf <https://ehdsfdp.healthdataportal.eu:443/catalog/9090b861-c8b9-4b31-90e1-b10736217f15>;
+  <http://data.europa.eu/r5r/applicableLegislation> <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022PC0197>;
+  foaf:page <https://thl.fi/en/topics/infectious-diseases-and-vaccinations/surveillance-and-registers/finnish-national-vaccination-register-and-monitoring-of-the-vaccination-programme>;
+  <http://healthdataportal.eu/ns/health#hdab> [ a foaf:Agent, foaf:Organization;
+      foaf:name "Ubikare zainketak S.L.";
+      <http://www.w3.org/ns/locn#address> [ a <http://www.w3.org/ns/locn#Address>;
+          <http://www.w3.org/ns/locn#adminUnitL1> "http://publications.europa.eu/resource/authority/country/ESP"
+        ];
+      foaf:homepage <https://www.ubikare.io/>;
+      foaf:mbox <mailto:info@ubikare.io>
+    ];
+  <http://healthdataportal.eu/ns/health#healthCategory> <http://healthdataportal.eu/resource/authority/healthcategories/PHDR>;
+  <http://healthdataportal.eu/ns/health#maxTypicalAge> "120"^^xsd:nonNegativeInteger;
+  <http://healthdataportal.eu/ns/health#minTypicalAge> "0"^^xsd:nonNegativeInteger;
+  <http://healthdataportal.eu/ns/health#populationCoverage> "The people vaccinated in public primary health care, specialist medical care and private health care."@en;
+  dcterms:provenance <internalURI:datasetProvenance0>;
+  dcterms:spatial <http://publications.europa.eu/resource/authority/country/FIN>;
+  dcterms:type <http://publications.europa.eu/resource/authority/dataset-type/PERSONAL_DATA>;
+  <http://technical.fdp/modified> "2025-03-15T05:22:24.089Z"^^xsd:dateTime;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>;
+  <https://w3id.org/dpv#hasPurpose> <internalURI:datasetPurpose0>;
+  dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/CONT>;
+  dcat:contactPoint <internalURI:contactPoint0>;
+  dcat:keyword "vaccinations"@en;
+  <http://healthdataportal.eu/ns/health#healthTheme> <http://www.wikidata.org/entity/Q134808>;
+  <http://healthdataportal.eu/ns/health#analytics> <https://ehdsfdp.healthdataportal.eu:443/analytics/0aa4c34e-a80e-49a6-a6a6-922211adba8e>;
+  <https://w3id.org/dpv#hasLegalBasis> <internalURI:hasLegalBasis0> .
+
+<http://publications.europa.eu/resource/authority/access-right/RESTRICTED> a dcterms:RightsStatement .
